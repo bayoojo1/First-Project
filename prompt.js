@@ -1,7 +1,7 @@
-let firstWord = prompt("Write a word");
-let secondWord = prompt("Write another word");
+let firstName = prompt("What is your first name?");
+let lastName = prompt("What is your last name?");
 
-let totalWord = firstWord + secondWord;
+let completeName = firstName.toUpperCase() + ' ' + lastName.toUpperCase();
+let nameLenght = completeName.length;
 
-
-alert("The string " + firstWord + " and " + secondWord + " are " + totalWord.length + " characters in length");
+alert("The string " + completeName + " is " + nameLenght + " characters in long");
